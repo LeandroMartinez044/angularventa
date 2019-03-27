@@ -1,0 +1,27 @@
+<div class="myForm">
+  <form (ngSubmit)="registrarCliente(f)" #f="ngForm" novalidate>
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" class="form-control" name="nombre" [(ngModel)]="nombre" placeholder="Ingrese nombre"  required>
+      <small  *ngIf="nombreValid" class="form-text text-danger">nombre is required</small>
+    </div>
+    <div class="form-group">
+      <label for="apellido">Apellido</label>
+      <input type="apellido" class="form-control" name="apellido" [(ngModel)]="apellido" placeholder="Ingrese apellido" required>
+      <small  *ngIf="apellidoValid" class="form-text text-danger">apellido is required</small>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </form>
+</div>
+
+
+
+ 
+    <p>Form value: {{ f.value | json }}</p>
+    <p>Form valid: {{ f.valid }}</p>
+<!--
+  NgModel: Crea una instancia FromControl desde un DOMINIO DE MODELO y se une a un elemento de control de formulario. 
+
+-->
