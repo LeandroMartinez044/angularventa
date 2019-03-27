@@ -8,7 +8,7 @@
     "test": "ng test proyecto1",
     "lint": "ng lint proyecto1",
     "e2e": "ng e2e proyecto1",
-    "postinstall": "ng build proyecto1 --aot --prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "11.5.0",
