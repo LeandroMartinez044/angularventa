@@ -16,13 +16,13 @@ export class ClienteComponent implements OnInit {
   constructor(private clienteService: ClienteService) { }
   
   @Input()
-  public nombre: String = "";
+  private nombre: String = "";
 
   @Input()
-  public apellido: String = "";
+  private apellido: String = "";
 
-  public nombreValid: boolean = false;
-  public apellidoValid: boolean = false;
+  private nombreValid: boolean = false;
+  private apellidoValid: boolean = false;
   
   
   ngOnInit() {
