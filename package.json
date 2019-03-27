@@ -10,6 +10,10 @@
     "e2e": "ng e2e proyecto1",
     "postinstall": "ng build proyecto1 --aot --prod"
   },
+  "engines": {
+    "node": "v11.5.0",
+    "npm": "6.5.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.1.0",
@@ -30,7 +34,6 @@
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
-   
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.0",
