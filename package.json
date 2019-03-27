@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "start": "ng serve proyecto1",
+    "build": "ng build proyecto1",
+    "test": "ng test proyecto1",
+    "lint": "ng lint proyecto1",
+    "e2e": "ng e2e proyecto1",
+    "postinstall": "ng build proyecto1 --aot --prod"
   },
   "engines": {
     "node": "11.5.0",
