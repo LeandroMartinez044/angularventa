@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build proyecto1",
-    "test": "ng test proyecto1",
-    "lint": "ng lint proyecto1",
-    "e2e": "ng e2e proyecto1",
-    "heroku-postbuild": "ng build --prod"
+    "build": "ng build ",
+    "test": "ng test ",
+    "lint": "ng lint ",
+    "e2e": "ng e2e ",
+    "postinstall": "ng build --aot --prod"
   },
   "engines": {
     "node": "11.5.0",
