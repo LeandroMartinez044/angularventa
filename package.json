@@ -4,21 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build ",
-    "test": "ng test ",
-    "lint": "ng lint ",
-    "e2e": "ng e2e ",
-    "postinstall": "ng build --aot --prod"
-  },
-  "engines": {
-    "node": "11.5.0",
-    "npm": "6.5.0"
+    "build": "ng build proyecto1",
+    "test": "ng test proyecto1",
+    "lint": "ng lint proyecto1",
+    "e2e": "ng e2e proyecto1",
+    "postinstall": "ng build proyecto1 --aot --prod"
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/build-angular": "~0.11.0",
-    "@angular/cli": "~7.1.3",
-    "@angular/compiler-cli": "~7.1.0",
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
     "@angular/compiler": "~7.1.0",
@@ -36,8 +29,8 @@
     "popper.js": "1.14.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.8.26",
-    "typescript": "~3.1.6"
+    "zone.js": "~0.8.26"
+   
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.0",
